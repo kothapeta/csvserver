@@ -1,0 +1,1 @@
+docker run -d --privileged -v /root/csvserver/solution/inputFile:/csvserver/inputdata -p 9393:9300 -e CSVSERVER_BORDER='Orange' 8cb989ef80b5
